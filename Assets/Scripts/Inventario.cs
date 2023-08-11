@@ -15,7 +15,7 @@ public class Inventario : MonoBehaviour
     [SerializeField] private GameObject espacio;
 
 
-    private void Start()
+    void Start()
     { 
         espacio = transform.GetChild(0).gameObject;
 
@@ -29,6 +29,7 @@ public class Inventario : MonoBehaviour
 
             slot[i].GetComponent<Slot>().empty = true;
         }
+        
     }
 
     public void addItem(Sprite icono)
