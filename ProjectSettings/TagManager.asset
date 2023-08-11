@@ -42,6 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Detras
+    uniqueID: 1635224549
+    locked: 0
   - name: Player
     uniqueID: 738204783
+    locked: 0
+  - name: Delante
+    uniqueID: 2780519283
     locked: 0

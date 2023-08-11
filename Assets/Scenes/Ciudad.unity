@@ -285,12 +285,16 @@ PrefabInstance:
       value: Crazyboy
       objectReference: {fileID: 0}
     - target: {fileID: 3525397642802945859, guid: e8c03560b631cdf4cafa0023f6f61d80, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525397642802945859, guid: e8c03560b631cdf4cafa0023f6f61d80, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3525397642802945859, guid: e8c03560b631cdf4cafa0023f6f61d80, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.25
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: 3525397642802945859, guid: e8c03560b631cdf4cafa0023f6f61d80, type: 3}
       propertyPath: m_LocalPosition.z
