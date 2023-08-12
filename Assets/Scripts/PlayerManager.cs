@@ -9,13 +9,11 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private float speed;
     private Coroutine moveCoroutine;
     private bool isAction = false;
-    [SerializeField] private GameObject bat;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && !isAction)
         {
-
             if (moveCoroutine != null)
             {
                 StopCoroutine(moveCoroutine);
@@ -86,6 +84,13 @@ public class PlayerManager : MonoBehaviour
                 break;
 
             case TypeIteraction.PORTAL:
+
+                interactionManager.Interaction();
+                break;
+
+
+            case TypeIteraction.CRAFT:
+
                 interactionManager.Interaction();
                 break;
         }

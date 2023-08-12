@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum TypeIteraction
 {
-    ALIEN, PORTAL
+    ALIEN, PORTAL, CRAFT
 }
 
 public abstract class InteractionManager : MonoBehaviour
