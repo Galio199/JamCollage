@@ -8,11 +8,7 @@ public class InteractionAlien : InteractionManager
     [SerializeField] private Sprite icono;
     [SerializeField] private GameObject inventario;
 
-    private void Start()
-    {
-        GameObject.FindGameObjectWithTag("boton").GetComponent<Button>().switchEnabled();
-    }
-
+    
     private void Update()
     {
         if (GameObject.FindWithTag("Inventario"))

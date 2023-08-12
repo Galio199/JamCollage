@@ -9,6 +9,10 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private float speed;
     private Coroutine moveCoroutine;
     private bool isAction = false;
+    private void Start()
+    {
+        GameObject.FindGameObjectWithTag("boton").GetComponent<Button>().switchEnabled();
+    }
 
     void Update()
     {
