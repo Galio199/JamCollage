@@ -19,7 +19,10 @@ public class InteractionAlien : InteractionManager
 
     public override void Interaction()
     {
-        icono = gameObject.transform.GetChild(1).GetChild(Random.Range(0, gameObject.transform.GetChild(1).childCount)).GetComponent<SpriteRenderer>().sprite;
+        while(icono == null)
+        {
+            icono = gameObject.transform.GetChild(1).GetChild(Random.Range(0, gameObject.transform.GetChild(1).childCount)).GetComponent<SpriteRenderer>().sprite;
+        }
         inventario.GetComponent<Inventario>().addItem(icono);
         Destroy(gameObject);
     }
