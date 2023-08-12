@@ -6,6 +6,6 @@ public class InteractionCraft : InteractionManager
 {
     public override void Interaction()
     {
-        Debug.Log("Craft");
+        KinematicManager.Instance.StartFinalDialogue();
     }
 }
