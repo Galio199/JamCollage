@@ -3035,7 +3035,7 @@ GameObject:
   - component: {fileID: 1374065462337668915}
   - component: {fileID: 6430530025374779792}
   - component: {fileID: 5275810374961535775}
-  - component: {fileID: 7876375067723461935}
+  - component: {fileID: 8556353831397740116}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3145,8 +3145,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7876375067723461935}
-        m_TargetAssemblyTypeName: Boton, Assembly-CSharp
+      - m_Target: {fileID: 8556353831397740116}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
         m_MethodName: switchEnabled
         m_Mode: 1
         m_Arguments:
@@ -3157,7 +3157,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7876375067723461935
+--- !u!114 &8556353831397740116
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3166,7 +3166,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4299588465319251836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5d743dcaeec01e43af21ffef12bc241, type: 3}
+  m_Script: {fileID: 11500000, guid: b9d70d9c5d0adb14ca1a7127b7b40837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inventario: {fileID: 5499566941416153101}
@@ -4310,7 +4310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.8882141, y: -19.916}
+  m_AnchoredPosition: {x: 0.8881836, y: -19.916016}
   m_SizeDelta: {x: -32.3256, y: -56.441}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6926064609112241932
@@ -4635,7 +4635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4862695080767097408
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5652,7 +5652,7 @@ Canvas:
   m_GameObject: {fileID: 6068878644386428717}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
@@ -5661,7 +5661,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0

@@ -9,5 +9,8 @@ public class Slot : MonoBehaviour
 
     public void Start()=>slotIcono = transform.GetChild(0);
 
-    public void UpdateSlot()=>slotIcono.GetComponent<Image>().sprite = icono;
+    public void UpdateSlot() {
+        Debug.Log("update");
+        slotIcono.GetComponent<Image>().sprite = icono; 
+    }
 }

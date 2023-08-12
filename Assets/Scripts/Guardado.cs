@@ -8,7 +8,7 @@ public class Guardado : MonoBehaviour
 
     private void Awake()
     {
-        if(Guardado.Instancia == null)
+        if (Guardado.Instancia == null)
         {
             Guardado.Instancia = this;
             DontDestroyOnLoad(this.gameObject);

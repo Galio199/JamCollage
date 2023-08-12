@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Inventario
   - DragParent
+  - boton
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Inventario : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class Inventario : MonoBehaviour
 
 
     void Start()
-    { 
+    {
         espacio = transform.GetChild(0).gameObject;
 
         numSlots = espacio.transform.childCount;
@@ -29,12 +30,12 @@ public class Inventario : MonoBehaviour
 
             slot[i].GetComponent<Slot>().empty = true;
         }
-        
+
     }
 
     public void addItem(Sprite icono)
     {
-        for(int i  = 0; i < numSlots; i++)
+        for (int i = 0; i < numSlots; i++)
         {
             if (slot[i].GetComponent<Slot>().empty)
             {
@@ -49,3 +50,4 @@ public class Inventario : MonoBehaviour
         }
     }
 }
+

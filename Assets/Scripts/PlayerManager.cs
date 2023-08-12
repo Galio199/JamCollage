@@ -10,6 +10,11 @@ public class PlayerManager : MonoBehaviour
     private Coroutine moveCoroutine;
     private bool isAction = false;
 
+    private void Start()
+    {
+        GameObject.FindGameObjectWithTag("boton").GetComponent<Button>().switchEnabled();
+    }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && !isAction)
