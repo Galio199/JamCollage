@@ -13,11 +13,5 @@ public class DropSlot : MonoBehaviour, IDropHandler
         item.transform.SetParent(transform);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        GameObject.FindGameObjectWithTag("boton").GetComponent<Button>().switchEnabled();
-        GameObject.FindGameObjectWithTag("Inventario").GetComponent<Inventario>().removeItem();
-    }
 
 }
