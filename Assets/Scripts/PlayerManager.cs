@@ -95,6 +95,7 @@ public class PlayerManager : MonoBehaviour
 
             case TypeIteraction.CRAFT:
 
+                isAction = true;
                 interactionManager.Interaction();
                 break;
         }
