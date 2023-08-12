@@ -8,6 +8,6 @@ public class InteractionCraft : InteractionManager
 {
     public override void Interaction()
     {
-        KinematicManager.Instance.StartFinalDialogue();
+        SceneManager.LoadScene("dragAndDrop");
     }
 }
