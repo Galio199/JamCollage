@@ -262,6 +262,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalBosque
       objectReference: {fileID: 0}
+    - target: {fileID: 6044419259261933906, guid: 2afcc5ae28e74f947b8321dfd8cb291d, type: 3}
+      propertyPath: m_text
+      value: Este portal te lleva al planeta Boscoso
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097065390036383757, guid: 2afcc5ae28e74f947b8321dfd8cb291d, type: 3}
+      propertyPath: Scene
+      value: Bosque
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -283,10 +291,6 @@ PrefabInstance:
     - target: {fileID: 2316156078708983584, guid: e8c03560b631cdf4cafa0023f6f61d80, type: 3}
       propertyPath: m_Name
       value: Crazyboy
-      objectReference: {fileID: 0}
-    - target: {fileID: 3525397642802945859, guid: e8c03560b631cdf4cafa0023f6f61d80, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3525397642802945859, guid: e8c03560b631cdf4cafa0023f6f61d80, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1216,6 +1220,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalSelva
       objectReference: {fileID: 0}
+    - target: {fileID: 6044419259261933906, guid: 2afcc5ae28e74f947b8321dfd8cb291d, type: 3}
+      propertyPath: m_text
+      value: Este portal te lleva al planeta Selvatico
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097065390036383757, guid: 2afcc5ae28e74f947b8321dfd8cb291d, type: 3}
+      propertyPath: Scene
+      value: Selva
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1290,6 +1302,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortalCueva
       objectReference: {fileID: 0}
+    - target: {fileID: 6044419259261933906, guid: 2afcc5ae28e74f947b8321dfd8cb291d, type: 3}
+      propertyPath: m_text
+      value: Este portal te lleva al planeta Cavernoso
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097065390036383757, guid: 2afcc5ae28e74f947b8321dfd8cb291d, type: 3}
+      propertyPath: Scene
+      value: Cueva
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1363,6 +1383,14 @@ PrefabInstance:
     - target: {fileID: 4451872155615479295, guid: 2afcc5ae28e74f947b8321dfd8cb291d, type: 3}
       propertyPath: m_Name
       value: PortalAcuatico
+      objectReference: {fileID: 0}
+    - target: {fileID: 6044419259261933906, guid: 2afcc5ae28e74f947b8321dfd8cb291d, type: 3}
+      propertyPath: m_text
+      value: Este portal te lleva al planeta Acuatico
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097065390036383757, guid: 2afcc5ae28e74f947b8321dfd8cb291d, type: 3}
+      propertyPath: Scene
+      value: Acuatico
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

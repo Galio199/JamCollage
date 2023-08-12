@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "DA\xD1O_0"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 473
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ce261a32c3b6e489211daf36bcf325
+      internalID: 400231295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DA\xD1O_1"
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 85
+        width: 434
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1530cd324c94a23479ca28e40b021c64
+      internalID: -534399526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DA\xD1O_2"
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 85
+        width: 486
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c0200ed26361e42b7cb416dae3a380
+      internalID: 966389123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DA\xD1O_3"
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 59
+        width: 451
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5302f3fa09042b2458988e4e368873a0
+      internalID: -352139157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "DA\xD1O_0": 400231295
+      "DA\xD1O_1": -534399526
+      "DA\xD1O_10": -1705978642
+      "DA\xD1O_11": 1666840619
+      "DA\xD1O_2": 966389123
+      "DA\xD1O_3": -352139157
+      "DA\xD1O_4": 348159257
+      "DA\xD1O_5": 437632145
+      "DA\xD1O_6": 2068349574
+      "DA\xD1O_7": 749262182
+      "DA\xD1O_8": -2128843200
+      "DA\xD1O_9": 23215869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

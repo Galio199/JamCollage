@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Ciudad.unity
+    guid: af807b924aba32a42a837a1ebf444500
+  - enabled: 1
+    path: Assets/Scenes/Acuatico.unity
+    guid: 5487290839e4dd44aa837f32a08a29c8
+  - enabled: 1
+    path: Assets/Scenes/Bosque.unity
+    guid: 6322944a9f53ef34489ef9db6642e302
+  - enabled: 1
+    path: Assets/Scenes/Cueva.unity
+    guid: 5347906070294034c84596bd11f2e3cb
+  - enabled: 1
+    path: Assets/Scenes/Selva.unity
+    guid: d01388d79c2a5464c8796d6fb0ae78df
   m_configObjects: {}
