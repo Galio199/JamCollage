@@ -49,5 +49,17 @@ public class Inventario : MonoBehaviour
             }
         }
     }
+
+    public void removeItem() 
+    {
+        for (int i = 0; i < numSlots; i++)
+        {
+            if (!slot[i].GetComponent<Slot>().empty)
+            {
+                slot[i].transform.GetChild(0).gameObject.AddComponent<DragItem>();
+                slot[i].transform.GetChild(0).transform.SetParent(GameObject.FindGameObjectWithTag("nuevoPadre").transform);
+            }
+        }
+    }
 }
 

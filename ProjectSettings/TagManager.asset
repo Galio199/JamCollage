@@ -7,6 +7,7 @@ TagManager:
   - Inventario
   - DragParent
   - boton
+  - nuevoPadre
   layers:
   - Default
   - TransparentFX

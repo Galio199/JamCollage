@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Selva.unity
     guid: d01388d79c2a5464c8796d6fb0ae78df
+  - enabled: 1
+    path: Assets/Scenes/dragAndDrop.unity
+    guid: 8b29e3352709a0946a427a2be7108c1e
   m_configObjects: {}

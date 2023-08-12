@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class DragItem : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler
 {
-    public GameObject itemDragging;
+    public static GameObject itemDragging;
 
     Vector3 posicionIni;
     Transform parentIni;
