@@ -338,14 +338,14 @@ Transform:
   m_GameObject: {fileID: 196539315}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.28130117, y: -0.68461525, z: -251.20172}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 609627689}
   - {fileID: 719547242}
   - {fileID: 202200502}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1106708044}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &202200501
 GameObject:
@@ -1203,7 +1203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93b166ad43c50e247bde0395de92ac6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsGame: {fileID: 1678304042}
+  objectsGame: {fileID: 0}
   kinematicObjects: {fileID: 196539315}
   dialogueText: {fileID: 293422581}
   textObject: {fileID: 719547241}
@@ -1220,6 +1220,10 @@ MonoBehaviour:
 
 '
   - Por supuesto, juntando partes de otros aliens
+  dialogueFinal:
+  - Veamos que tienes para mi
+  - Increible, nunca habia visto este Alien
+  - Bienvenido al club
 --- !u!4 &1106708044
 Transform:
   m_ObjectHideFlags: 0
@@ -1232,7 +1236,8 @@ Transform:
   m_LocalPosition: {x: -0.28130117, y: -0.68461525, z: -251.20172}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 196539316}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1135949183
@@ -3569,5 +3574,4 @@ SceneRoots:
   - {fileID: 253524683}
   - {fileID: 1678304043}
   - {fileID: 1106708044}
-  - {fileID: 196539316}
   - {fileID: 1496188025}
